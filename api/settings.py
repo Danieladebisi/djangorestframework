@@ -24,8 +24,10 @@ SECRET_KEY = 'django-insecure-i2nv#7r&8=u81^#fp-uuhm%fx48iss3#@56v%)r=-st8$x1uqe
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'weekdayapi.herokuapp.com']
+# ALLOWED_HOSTS = ['localhost', 'weekdayapi.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
